@@ -54,5 +54,8 @@ If you would like to add this to you're webiste make sure to edit Data.ini and r
 ```
 in script.js with the data you want it to do/use for the most case tho just change https://exp.com with /main.html or what ever you're site is for better protection make it so if you are not redieracted to hte site by the certian url it will take you back to index.html.
 
+## Why wont't it work localy
+The reason the login page does not work on a local run is becasue cross-orgin with firefox this not a issue because firefox allows it if data.ini is also in the same dir/sub-dir as long as they are it will work other browsers will not allow this beacuse there dumb you might be able to rename Data.ini to Data.js and change the name in the java script code.
+
 # Other
 Note that is really made just to be a show case on how you could do it with out PHP code and if you are using PHP code it is gonna be way safer just to use that but for this, this is really just to be a way to put it on websites that don't want people to get to that easly.
